@@ -19,7 +19,25 @@
                     <b-nav-item class="menuItems">KAHVELER</b-nav-item>
                     <b-nav-item class="menuItems">EKİPMAN & AKSESUARLAR</b-nav-item>
                     <b-nav-item class="menuItems">TANIŞMA SETLERİ</b-nav-item>
-                    <b-nav-item class="menuItems">MARKALAR</b-nav-item>
+                    <b-nav-item>
+                        <b-dropdown class="dropDown" text="Markalar"  >
+                        <b-dropdown-item href="#">Able</b-dropdown-item>
+                        <b-dropdown-item href="#">Bianco</b-dropdown-item>
+                        <b-dropdown-item href="#">Bravilor Bonamat</b-dropdown-item>
+                        <b-dropdown-item href="#">Caffe Vergnano</b-dropdown-item>
+                        <b-dropdown-item href="#">Coffee Sapiens</b-dropdown-item>
+                        <b-dropdown-item href="#">Coffeerem</b-dropdown-item>
+                        <b-dropdown-item href="#">Delter</b-dropdown-item>
+                        <b-dropdown-item href="#">Felicita</b-dropdown-item>
+                        <b-dropdown-item href="#">Illy</b-dropdown-item>
+                        <b-dropdown-item href="#">Kronotrop</b-dropdown-item>
+                        <b-dropdown-item href="#">Puly Caff</b-dropdown-item>
+                        <b-dropdown-item href="#">Shorts Coffee</b-dropdown-item>
+                        <b-dropdown-item href="#">The Dripster</b-dropdown-item>
+                        <b-dropdown-item href="#">Urban Tools</b-dropdown-item>
+                    </b-dropdown>
+                    </b-nav-item>
+                    
                     <b-nav-item class="kultur">KÜLTÜR</b-nav-item>
                     <b-nav-item class="menuItems">HEDİYELİKLER</b-nav-item>
                 </b-navbar-nav>
@@ -45,7 +63,12 @@ export default {
 
 <style>
 
-    
+    .dropDown{
+        background-color:transparent;
+        color: #603813;
+        border-width: 0;
+        
+    }
     .logo{
         width: 90px;
     }
